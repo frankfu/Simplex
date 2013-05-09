@@ -23,7 +23,7 @@ with open('html/index.html', 'w') as f:
     page.ul()
     page.li(chapters)
     page.ul.close()
-    page.div('This page is make by Simplex 1.0', id_='footer')
+    page.div('This page is made by Simplex 1.0', id_='footer')
     page.div.close()
     f.write(str(page))
     for i in range(1, len(chapters) + 1):
@@ -72,7 +72,7 @@ with open('html/index.html', 'w') as f:
             page.span(links, class_='button')
             page.div.close()
             page.div.close()
-            page.div('This page is make by Simplex 1.0', id_='footer')
+            page.div('This page is made by Simplex 1.0', id_='footer')
             page.div.close()
             f.write(str(page))
 
